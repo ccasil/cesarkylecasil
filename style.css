@@ -1,0 +1,30 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#wrapper{
+	width: 1000px;
+	background: white;
+}
+#header{
+	width: 1000px;
+	border-bottom: 2px solid black;
+}
+#footer{
+	text-align: center;
+	width: 1000px;
+	border-top: 2px solid black;
+}
+.contactlink{
+	font-size: 12px;
+	color: black;
+}
+.dividestyle{
+	font-size: 12px;
+	color: grey;
+}
+#copyright{
+	text-align: center;
+	font-size: 10px;
+}
