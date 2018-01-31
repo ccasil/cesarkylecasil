@@ -11,6 +11,9 @@
 	width: 1000px;
 	border-bottom: 2px solid black;
 }
+.section{
+	border-bottom: 2px solid black;
+}
 #footer{
 	text-align: center;
 	width: 1000px;
