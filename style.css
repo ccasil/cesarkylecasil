@@ -6,6 +6,7 @@
 #wrapper{
 	width: 1000px;
 	background: white;
+	padding: 5px;
 }
 #header{
 	width: 1000px;
@@ -30,4 +31,10 @@
 #copyright{
 	text-align: center;
 	font-size: 10px;
+}
+.listpadding{
+	padding-left: 20px;
+}
+.inline{
+	display: inline-block;
 }
