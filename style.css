@@ -1,38 +1,15 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #wrapper{
-	width: 1000px;
 	background: white;
-	padding: 5px;
 }
 #header{
 	width: 1000px;
-	border-bottom: 2px solid black;
-}
-#education{
-	width: 450px;
-	display: inline-block;
-	margin-left: 25px;
-	border-bottom: 0px;
-	text-align: center;
-}
-#workexp{
-	width: 450px;
-	display: inline-block;
-	margin-left: 25px;
-	border-bottom: 0px;
-	text-align: center;
-}
-.section{
-	border-bottom: 2px solid black;
 }
 #footer{
 	text-align: center;
-	width: 1000px;
-	border-top: 2px solid black;
 }
 .contactlink{
 	font-size: 12px;
@@ -51,6 +28,9 @@
 }
 .inline{
 	display: inline-block;
+}
+.floatright{
+	float: right;
 }
 .subpoint{
 	margin-left: 10px;
