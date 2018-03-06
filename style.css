@@ -1,19 +1,27 @@
 img{
 	max-width: 50%;
-	display: inline-block;
+	display: inline;
+	height: auto;
+	text-align: center;
 }
-a {
+.imgdiv{
+	width: 50%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+a{
 	text-decoration: none;
 	position: relative;
 	color: black;
 }
-a:link {
+a:link{
 	color: #000;
 }
 a:visited {
 	color: #000;
 }
-a:after {
+a:after{
   content: '';
   position: absolute;
   bottom: 0;
@@ -22,11 +30,11 @@ a:after {
   border-bottom: 1px solid #000;
   transition: 0.2s;
 }
-a:hover:after {
+a:hover:after{
   width: 100%;
 }
 
-a:hover {
+a:hover{
 	color: #000;
 }
 #wrapper{
