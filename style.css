@@ -12,11 +12,15 @@ img{
 #centerimage{
 	text-align: center;
 }
+.font{
+	font-size: 30px;
+}
 a{
 	text-decoration: none;
 	position: relative;
 	color: black;
 	margin: 10px;
+	text-align: top;
 }
 a:link{
 	color: #000;
@@ -40,11 +44,8 @@ a:hover:after{
 a:hover{
 	color: #000;
 }
-#wrapper{
-	background: #fff;
-}
 #header{
-	width: 1000px;
+/*	width: 1000px;*/
 }
 #footer{
 	text-align: center;
