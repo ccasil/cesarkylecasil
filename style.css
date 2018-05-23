@@ -1,0 +1,65 @@
+#body {
+    padding-top: 50px;
+}
+
+.ml-auto .dropdown-menu {
+	left: auto !important;
+    right: 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.bgimg1 {
+    background-image: url("./imgs/bgimg-1.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: bottom;
+    height: 500px;
+}
+
+.bgimg2 {
+    background-image: url("./imgs/bgimg-3.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top;
+    /* height: 250px; */
+}
+
+.bgimg3 {
+    background-image: url("./imgs/bgimg-5.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top;
+    /* height: 250px; */
+}
+
+.bgimg4 {
+    background-image: url("./imgs/bgimg-6.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    /* height: 250px; */
+}
+
+.biolinks {
+    color: black;
+    padding: 20px;
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.projectlinks {
+    color: black;
+    font-size: 28px;
+}
+
+#footer {
+    text-align: center;
+}
