@@ -1,5 +1,16 @@
+body {
+    position: relative;
+}
+
 #body {
-    padding-top: 50px;
+    padding-top: 0px;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
 
 .ml-auto .dropdown-menu {
@@ -12,16 +23,18 @@
 }
 
 .bgimg1 {
-    background-image: url("./imgs/bgimg-1.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bgimg-1.jpg"); 
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: bottom;
-    height: 500px;
+    height: 100vh;
+    position: relative;
+    color: white;
 }
 
 .bgimg2 {
-    background-image: url("./imgs/bgimg-3.jpg"); 
+    background-image: url("./images/bgimg-3.jpg"); 
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -30,7 +43,7 @@
 }
 
 .bgimg3 {
-    background-image: url("./imgs/bgimg-5.jpg"); 
+    background-image: url("./images/bgimg-5.jpg"); 
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -39,7 +52,7 @@
 }
 
 .bgimg4 {
-    background-image: url("./imgs/bgimg-6.jpg"); 
+    background-image: url("./images/bgimg-6.jpg"); 
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
