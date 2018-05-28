@@ -13,11 +13,6 @@ body {
     visibility: hidden;
 }
 
-.ml-auto .dropdown-menu {
-	left: auto !important;
-    right: 0px;
-}
-
 .container-fluid {
     padding: 0px;
 }
@@ -31,6 +26,7 @@ body {
     height: 100vh;
     position: relative;
     color: white;
+    margin: 0px 0px 25px 0px;
 }
 
 .bgimg2 {
@@ -39,7 +35,8 @@ body {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-    /* height: 250px; */
+    height: 250px;
+    margin: 0px 0px 25px 0px;
 }
 
 .bgimg3 {
@@ -48,7 +45,8 @@ body {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: top;
-    /* height: 250px; */
+    height: 250px;
+    margin: 0px 0px 25px 0px;
 }
 
 .bgimg4 {
@@ -57,7 +55,8 @@ body {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-    /* height: 250px; */
+    height: 250px;
+    margin: 0px 0px 25px 0px;
 }
 
 .biolinks {
