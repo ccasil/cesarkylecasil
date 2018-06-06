@@ -72,6 +72,10 @@ body {
     font-size: 28px;
 }
 
+.card-deck {
+    margin-bottom: 25px;
+}
+
 #footer {
     text-align: center;
 }
