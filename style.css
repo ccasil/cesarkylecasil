@@ -3,7 +3,11 @@ body {
 }
 
 #body {
-    padding-top: 0px;
+    padding: 0px;
+}
+
+img {
+    margin: 25px;
 }
 
 .display-3 {
@@ -64,7 +68,6 @@ a:active {
     background-size: cover; 
     background-position: center;
     height: 250px;
-    margin: 0px 0px 25px 0px;
 }
 
 .bgimg3 {
@@ -76,7 +79,7 @@ a:active {
     background-size: cover; 
     background-position: top;
     height: 250px;
-    margin: 0px 0px 25px 0px;
+    margin-top: 25px;
 }
 
 .bgimg4 {
@@ -88,7 +91,6 @@ a:active {
     background-size: cover; 
     background-position: center;
     height: 250px;
-    margin: 0px 0px 25px 0px;
 }
 
 .biolinks {
@@ -104,8 +106,12 @@ a:active {
     font-size: 28px;
 }
 
-.card-deck {
-    margin-bottom: 25px;
+.project {
+    margin: 25px;
+}
+
+.card {
+    margin: 25px;
 }
 
 .card:hover {
