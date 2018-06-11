@@ -87,12 +87,12 @@ a:active {
 /* skills */
 .bgimg4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
-    url("./images/bgimg-6.jpg"); 
+    url("./images/bgimg-7.jpg"); 
     color: white;
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
-    background-position: center;
+    background-position: top;
     height: 250px;
 }
 
@@ -113,10 +113,16 @@ a:active {
     margin: 5px;
 }
 
-.card:hover {
+.project:hover {
     box-shadow: 0px 0px 2px 1px #444444;
 }
 
 #footer {
     text-align: center;
+    margin-top: 25px;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 10px;
 }
