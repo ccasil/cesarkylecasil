@@ -1,5 +1,6 @@
 body {
     position: relative;
+    background: #f8f8f8;
 }
 
 #body {
@@ -8,6 +9,42 @@ body {
 
 img {
     margin: 25px;
+}
+
+.splashpage {
+    padding-top: 100px;
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #E0E0E0;
+  transition: 0.4s;
+}
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.nav-link:hover {
+	color: #7c7c7d;
+}
+
+
+#contactlink:link {
+    color:red;
+}
+a:visited {
+    color: black;
+}
+#contactlink:hover {
+    font-weight: bold;
+}
+
+#meme {
+    border-radius: 50%;
 }
 
 .display-3 {
