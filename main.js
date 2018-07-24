@@ -11,7 +11,7 @@
 
         $(function () {
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 200) {
+                if ($(this).scrollTop() > 150) {
                     $('.navbar').fadeIn('slow');
                 } else {
                     $('.navbar').fadeOut();
