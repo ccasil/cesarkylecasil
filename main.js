@@ -1,10 +1,9 @@
 (function ($) {
     $(document).ready(function () {
 
-        $(".navbar").hide();
-
         var scroll = $(window).scrollTop();
         scroll = scroll + $(window).height() - 50;
+        
         // $('html, body').animate({
         //     scrollTop: scroll
         // }, 1500);
@@ -12,9 +11,9 @@
         $(function () {
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 150) {
-                    $('.navbar').fadeIn('slow');
+                    $('.navbar').addClass('solid');
                 } else {
-                    $('.navbar').fadeOut();
+                    $('.navbar').removeClass('solid');
                 }
             });
         });
