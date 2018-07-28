@@ -25,6 +25,10 @@ body {
    box-shadow: 0 0 2px #7c7c7d;
 }
 
+.navbar-brand:hover {
+    color: black;
+}
+
 .nav-link:after {
   content: '';
   position: absolute;
@@ -50,6 +54,7 @@ body {
 }
 
 .splashpage {
+    color: white;
     padding-top: 100px;
 }
 
@@ -62,6 +67,7 @@ body {
 }
 
 .name {
+    color: white;
     margin-top: 100px;
 }
 
@@ -145,7 +151,7 @@ a:active {
 .biolinks {
     color: black;
     padding: 20px;
-    font-size: 26px;
+    font-size: 28px;
     display: inline-block;
     vertical-align: top;
 }
