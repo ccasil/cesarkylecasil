@@ -51,6 +51,10 @@
     padding-top: 100px;
 }
 
+.hideme {
+    opacity: 0;
+}
+
 .title {
     margin-top: 75px;
 }
