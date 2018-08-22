@@ -9,30 +9,30 @@
 }
 
 .navbar {
-   background-color: transparent;
-   border: none;
-   color: white;
-   z-index: 100;
-   transition: background-color 1s ease 0s;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
 }
 
 .solid {
-   background-color: #f8f8f8;
-   transition: background-color 1s ease 0s;
-   box-shadow: 0 0 2px #7c7c7d;
+    background-color: #f8f8f8;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 2px #7c7c7d;
 }
 
 .nav-link:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  border-bottom: 4px solid #E0E0E0;
-  transition: 0.2s;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 4px solid #E0E0E0;
+    transition: 0.2s;
 }
 .nav-link:hover:after {
-  width: 100%;
+    width: 100%;
 }
 
 .nav-link:hover, .navbar-brand:hover {
@@ -78,7 +78,6 @@ a:link, a:visited {
 
 a:hover {
     color: blue;
-    /* filter: invert(100%); */
     text-decoration: none;
 }
 
