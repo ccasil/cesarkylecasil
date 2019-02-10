@@ -52,7 +52,7 @@
 }
 
 .title {
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .about {
@@ -90,7 +90,7 @@ a:hover {
     color: white;
 }
 
-/* about */
+/* projects */
 .bgimg2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
     url("./images/bgimg-3.jpg");
@@ -99,7 +99,7 @@ a:hover {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-    height: 250px;
+    height: 200px;
 }
 
 .biolinks {
@@ -110,7 +110,7 @@ a:hover {
     vertical-align: top;
 }
 
-/* projects */
+/* skills */
 .bgimg3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url("./images/bgimg-5.jpg");
@@ -119,7 +119,7 @@ a:hover {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: top;
-    height: 250px;
+    height: 200px;
 }
 
 .projectlinks {
@@ -135,7 +135,7 @@ a:hover {
     box-shadow: 0px 0px 2px 1px #444444;
 }
 
-/* skills */
+/* contact */
 .bgimg4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
     url("./images/bgimg-7.jpg"); 
@@ -144,7 +144,7 @@ a:hover {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: top;
-    height: 250px;
+    height: 200px;
 }
 
 #footer {
