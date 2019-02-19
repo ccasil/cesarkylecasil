@@ -5,12 +5,6 @@
 
         $(function () {
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 150) {
-                    $('.navbar').addClass('solid');
-                } else {
-                    $('.navbar').removeClass('solid');
-                }
-                
                 $('.hideme').each(function (i) {
                     var bottom_of_object = $(this).offset().top + $(this).outerHeight();
                     var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -34,3 +28,12 @@
         });
     });
 }(jQuery));
+
+function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+    alert("email copied to clipboard!");
+}

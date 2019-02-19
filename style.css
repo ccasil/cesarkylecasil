@@ -1,34 +1,12 @@
 .container-fluid {
     position: relative;
-    background: #f8f8f8;
+    background: #c3c3c3;
     padding: 0px;
+    margin: 0px;
 }
 
 .navbar {
-    background-color: transparent;
-    border: none;
-    color: white;
-    z-index: 100;
-    transition: background-color 1s ease 0s;
-}
-
-.solid {
-    background-color: #f8f8f8;
-    transition: background-color 1s ease 0s;
-    box-shadow: 0 0 2px #7c7c7d;
-}
-
-.nav-link:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    border-bottom: 4px solid #E0E0E0;
-    transition: 0.2s;
-}
-.nav-link:hover:after {
-    width: 100%;
+    font-weight: bold;
 }
 
 .nav-link:hover, .navbar-brand:hover {
@@ -38,7 +16,6 @@
 .anchor {
     display: block;
     position: relative;
-    top: -50px;
     visibility: hidden;
 }
 
@@ -52,15 +29,24 @@
 }
 
 .title {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
-.about {
-    margin: 25px;
+.aboutsection {
+    background-color: #f8f8f8;
+    height: 100vh;
 }
 
 #meme {
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    margin: 2em;
+    max-width: 25%;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.summary {
+    margin: 2em;
 }
 
 .name {
@@ -68,11 +54,18 @@
     margin-top: 100px;
 }
 
+.table td{
+    font-size: 12px;
+    border: 0px;
+    font-weight: bold;
+    color: black;
+}
+
 a:link, a:visited {
     color: black;
 }
 
-a:hover {
+.biolinks:hover, a:hover {
     color: blue;
     text-decoration: none;
 }
@@ -92,34 +85,16 @@ a:hover {
 
 /* projects */
 .bgimg2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
-    url("./images/bgimg-3.jpg");
-    color: white; 
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center;
-    height: 200px;
+    background-color: #c3c3c3;
+    height: 100vh;
 }
 
 .biolinks {
-    color: black;
-    padding: 20px;
-    font-size: 28px;
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* skills */
-.bgimg3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("./images/bgimg-5.jpg");
     color: white;
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: top;
-    height: 200px;
+    font-size: 36px;
+    /* display: block; */
+    margin: 4px;
+    filter: invert(100%)
 }
 
 .projectlinks {
@@ -135,23 +110,19 @@ a:hover {
     box-shadow: 0px 0px 2px 1px #444444;
 }
 
-/* contact */
-.bgimg4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
-    url("./images/bgimg-7.jpg"); 
-    color: white;
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: top;
-    height: 200px;
+.emailbtn {
+    width: 50%;
 }
 
 #footer {
     text-align: center;
-    margin-top: 25px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 1em;
+    margin-top: 16px;
 }
 
 #copyright {
-    font-size: 10px;
+    font-size: 12px;
+    margin: 1em;
 }
