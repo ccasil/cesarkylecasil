@@ -115,7 +115,8 @@ a:link, a:visited {
     box-shadow: 0px 0px 2px 1px #444444;
 }
 
-.emailbtn {
+#emailbtn {
+    text-align: center;
     width: 50%;
 }
 
