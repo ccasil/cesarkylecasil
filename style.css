@@ -1,3 +1,8 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
 .container-fluid {
     position: relative;
     background: #c3c3c3;
