@@ -1,10 +1,9 @@
-html p {
+html body p .title {
     margin: 0px;
     padding: 0px;
 }
 
 .container-fluid {
-    /* position: relative; */
     background: #c3c3c3;
     padding: 0px;
     margin: 0px;
@@ -31,11 +30,6 @@ html p {
 
 .hideme {
     opacity: 0;
-}
-
-.title {
-    margin: 0px;
-    padding: 0px;
 }
 
 .aboutsection {
@@ -95,7 +89,7 @@ a:link, a:visited {
 }
 
 .biolinks {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 36px;
     /* display: block; */
     margin: 4px;
@@ -105,10 +99,6 @@ a:link, a:visited {
 .projectlinks {
     color: black;
     font-size: 28px;
-}
-
-.card {
-    margin: 5px;
 }
 
 .project:hover {
@@ -123,7 +113,7 @@ a:link, a:visited {
 #footer {
     text-align: center;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 4px;
     margin-top: 16px;
 }
