@@ -5,6 +5,7 @@ html p .title {
 
 body {
     overflow-x: hidden;
+    background: #c3c3c3;
 }
 
 .container-fluid {
@@ -32,6 +33,10 @@ body {
     padding-top: 100px;
 }
 
+/* .jobtitle {
+    font-size: 
+} */
+
 .hideme {
     opacity: 0;
 }
@@ -50,11 +55,11 @@ body {
 
 .name {
     color: white;
-    margin-top: 100px;
+    margin-top: 28vh;
 }
 
 .summary {
-    margin: 4px;
+    margin: 1em 0px 1em 0px;
 }
 
 .table td{
@@ -65,6 +70,16 @@ body {
 
 a:link, a:visited {
     color: black;
+}
+
+.biolinks {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    filter: invert(100%)
+}
+
+.smalltext {
+    font-size: 12px;
 }
 
 .biolinks:hover, a:hover {
@@ -92,14 +107,6 @@ a:link, a:visited {
     min-height: 100vh;
 }
 
-.biolinks {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 36px;
-    /* display: block; */
-    margin: 4px;
-    filter: invert(100%)
-}
-
 .projectlinks {
     color: black;
     font-size: 28px;
@@ -118,7 +125,7 @@ a:link, a:visited {
     text-align: center;
     background-color: white;
     border-radius: 20px;
-    padding: 4px;
+    padding: 1em;
     margin-top: 16px;
 }
 
