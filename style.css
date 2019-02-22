@@ -1,6 +1,10 @@
-html body p .title {
+html p .title {
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .container-fluid {
