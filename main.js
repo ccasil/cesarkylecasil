@@ -5,6 +5,13 @@
 
         $(function () {
             $(window).scroll(function () {
+
+                if ($(this).scrollTop() > 150) {
+                    $('.top').addClass('solid');
+                } else {
+                    $('.top').removeClass('solid');
+                }
+
                 $('.hideme').each(function (i) {
                     var bottom_of_object = $(this).offset().top + $(this).outerHeight();
                     var bottom_of_window = $(window).scrollTop() + $(window).height();
