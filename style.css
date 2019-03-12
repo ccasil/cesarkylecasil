@@ -19,7 +19,7 @@ body {
 }
 
 .nav-link:hover {
-	color: #7c7c7d;
+    color: #7c7c7d;
 }
 
 .solid {
@@ -27,8 +27,9 @@ body {
 }
 
 #fixedbutton {
+    font-size: 12px;
     position: fixed;
-    bottom: 2em;
+    bottom: 1em;
     right: 2em; 
 }
 
@@ -47,8 +48,25 @@ body {
     opacity: 0;
 }
 
-.aboutsection {
-    background-color: #f8f8f8;
+.backgrade {
+    background-image: linear-gradient(#fafafa, #c3c3c3);
+}
+
+/* title */
+.titleparallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("./images/bgimg-1.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: bottom;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+/* component heights */
+.section {
     min-height: 100vh;
 }
 
@@ -91,26 +109,6 @@ a:link, a:visited {
 .biolinks:hover, a:hover {
     color: blue;
     text-decoration: none;
-}
-
-/* title */
-.bgimg1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("./images/bgimg-1.jpg"); 
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: bottom;
-    height: 100vh;
-    position: relative;
-    color: white;
-}
-
-/* projects */
-.bgimg2 {
-    /* background-color: #c3c3c3; */
-    background-image: linear-gradient(#f8f8f8, #c3c3c3);
-    min-height: 100vh;
 }
 
 .projectlinks {
