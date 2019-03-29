@@ -16,6 +16,7 @@ body {
 
 .navbar {
     font-weight: bold;
+    width: 100px;
 }
 
 .nav-link:hover {
