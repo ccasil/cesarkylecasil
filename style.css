@@ -88,12 +88,12 @@ body {
 }
 
 .table td{
-    font-size: 12px;
+    font-size: 1em;
     font-weight: bold;
     color: black;
 }
 
-a:link, a:visited {
+a:link, a:visited, .projectlinks {
     color: black;
 }
 
@@ -104,17 +104,12 @@ a:link, a:visited {
 }
 
 .smalltext {
-    font-size: 12px;
+    font-size: 1em;
 }
 
 .biolinks:hover, a:hover {
     color: blue;
     text-decoration: none;
-}
-
-.projectlinks {
-    color: black;
-    font-size: 28px;
 }
 
 .project:hover {
@@ -135,7 +130,7 @@ a:link, a:visited {
 }
 
 #copyright {
-    font-size: 12px;
+    font-size: 1em;
     margin: 2px;
     padding: 0px;
 }

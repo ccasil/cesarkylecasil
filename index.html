@@ -53,7 +53,7 @@
 		</nav>
 	</div>
 	<div class="top font-weight-normal" id="fixedbutton">
-		<a href="#top">BACK TOP<i class="fas fa-level-up-alt"></i></a>
+		<a href="#top">BACK TO TOP<i class="fas fa-level-up-alt"></i></a>
 	</div>
 
 		<div class="container-fluid titleparallax">
@@ -136,8 +136,8 @@
 							<div class="card m-4 project">
 								<!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
 								<div class="card-body">
-									<h5 class="card-title h4">
-										<a class="projectlinks" target="_blank" href=https://github.com/ccasil/Tips-and-Templates/blob/master/README.md>Tips and Templates</a><a class="projectlinks" target="_blank" href=https://github.com/ccasil/Tips-and-Templates> <i
+									<h5 class="card-title display-5">
+										<a class="projectlinks" target="_blank" href=https://github.com/ccasil/Tips-and-Templates/blob/master/README.md>Tips and Templates <i class="fas fa-link"></i></a><a class="projectlinks" target="_blank" href=https://github.com/ccasil/Tips-and-Templates> <i
 											class="fab fa-github-square"></i></a>
 									</h5>
 									<p class="card-text">Notes on various topics based around Computer Science.</p>
@@ -151,7 +151,7 @@
 							<div class="card m-4 project">
 								<!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
 								<div class="card-body">
-									<h5 class="card-title h4">
+									<h5 class="card-title display-5">
 										Alex The Party<a class="projectlinks"
 											target="_blank" href=https://github.com/ccasil/alextheparty> <i class="fab fa-github-square"></i></a>
 									</h5>
@@ -167,8 +167,8 @@
 							<div class="card m-4 project">
 								<!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
 								<div class="card-body">
-									<h5 class="card-title h4">
-										<a class="projectlinks" target="_blank" href=http://megumihfashion.com>Megumi H</a> <a class="projectlinks" target="_blank" href=https://github.com/ccasil/megumih><i class="fab fa-github-square"></i></a>
+									<h5 class="card-title display-5">
+										<a class="projectlinks" target="_blank" href=http://megumihfashion.com>Megumi H <i class="fas fa-link"></i></a><a class="projectlinks" target="_blank" href=https://github.com/ccasil/megumih> <i class="fab fa-github-square"></i></a>
 									</h5>
 									<p class="card-text">Portfolio for Academy of Art student to display her studies in Fashion Journalism.</p>
 								</div>
@@ -181,8 +181,8 @@
 							<div class="card m-4 project">
 								<!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
 								<div class="card-body">
-									<h5 class="card-title h4">
-										<a class="projectlinks" target="_blank" href=http://lovechangingtheworld.org>Love Changing the World</a> <a class="projectlinks" target="_blank" href=https://www.github.com/ccasil/LCTW><i class="fab fa-github-square"></i></a>
+									<h5 class="card-title display-5">
+										<a class="projectlinks" target="_blank" href=http://lovechangingtheworld.org>Love Changing the World <i class="fas fa-link"></i></a><a class="projectlinks" target="_blank" href=https://www.github.com/ccasil/LCTW> <i class="fab fa-github-square"></i></a>
 									</h5>
 									<p class="card-text">Public website for the non-profit organization Love Changing the World, Inc. Allows donations through PayPal in exchange
 										for apparel with LCTW branding.</p>
@@ -196,7 +196,7 @@
 							<div class="card m-4 project">
 								<!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
 								<div class="card-body">
-									<h5 class="card-title h4">
+									<h5 class="card-title display-5">
 										Gym Log<a class="projectlinks" target="_blank" href=https://www.github.com/ccasil/GymLog> <i class="fab fa-github-square"></i></a>
 									</h5>
 									<p class="card-text">Personal iOS application to aid in daily workout programs. Includes a user profile, kg/lb conversion calculator,
@@ -211,7 +211,7 @@
 							<div class="card m-4 project">
 								<!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
 								<div class="card-body">
-									<h5 class="card-title h4">
+									<h5 class="card-title display-5">
 										Dojo Attendance Tracker<a class="projectlinks" target="_blank" href=https://www.github.com/ccasil/geo_hack> <i class="fab fa-github-square"></i></a>
 									</h5>
 									<p class="card-text">iOS application that records the amount of time spent inside Coding Dojo as well as the time spent outside; can be
@@ -226,7 +226,7 @@
 							<div class="card m-4 project">
 								<!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
 								<div class="card-body">
-									<h5 class="card-title h4">
+									<h5 class="card-title display-5">
 										Baskin Robbins 31<a class="projectlinks" target="_blank" href=https://www.github.com/ccasil/BRB31> <i class="fab fa-github-square"></i></a>
 									</h5>
 									<p class="card-text">Web application tailored to Baskin Robbins fans. Allows the user to view all flavor descriptions to be added as a
@@ -268,9 +268,22 @@
 				</div>
 				<div class="hideme">
 					<div class="text-center">
-						<button id="emailbtn" type="button" class="btn btn-outline-secondary btn-sm" onclick="copyToClipboard('#email')">
+						<button id="emailbtn" type="button" class="btn btn-outline-secondary btn-sm" onclick="copyToClipboard('#email')" data-toggle="modal" data-target="#modalView">
 							<span class="lead" id="email">ccasil@ucsc.edu</span>
 						</button>
+						<div class="modal fade" id="modalView" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
+							aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body">
+										Email copied to clipboard!
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
