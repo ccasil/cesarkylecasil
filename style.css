@@ -134,12 +134,6 @@ a:link, a:visited {
     margin-top: 8px;
 }
 
-@media (max-width: 576px) {
-    #footer{
-        margin: 0px 8px 0px 8px;
-    }
-}
-
 #copyright {
     font-size: 12px;
     margin: 2px;
