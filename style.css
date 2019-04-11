@@ -5,11 +5,11 @@ html p .title {
 
 body {
     overflow-x: hidden;
-    background: #c3c3c3;
+    background: #afafaf;
 }
 
 .container-fluid {
-    background: #c3c3c3;
+    background: #afafaf;
     padding: 0px;
     margin: 0px;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .backgrade {
-    background-image: linear-gradient(#fafafa, #c3c3c3);
+    background-image: linear-gradient(#fafafa, #afafaf);
 }
 
 /* title */
@@ -123,7 +123,7 @@ a:link, a:visited, .projectlinks {
 #footer {
     text-align: center;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 1em;
     margin-top: 4px;
 }
