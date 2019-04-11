@@ -131,7 +131,13 @@ a:link, a:visited {
     background-color: white;
     border-radius: 20px;
     padding: 1em;
-    margin-top: 16px;
+    margin-top: 8px;
+}
+
+@media (max-width: 576px) {
+    #footer{
+        margin: 0px 8px 0px 8px;
+    }
 }
 
 #copyright {
