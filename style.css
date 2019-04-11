@@ -1,5 +1,5 @@
 html p .title {
-    margin: 0px;
+    margin: 0px 0px 1em 0px;
     padding: 0px;
 }
 
@@ -111,7 +111,6 @@ a:link, a:visited, .projectlinks {
     color: blue;
     text-decoration: none;
 }
-
 .project:hover {
     box-shadow: 0px 0px 2px 1px #444444;
 }
@@ -126,7 +125,7 @@ a:link, a:visited, .projectlinks {
     background-color: white;
     border-radius: 20px;
     padding: 1em;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 #copyright {
