@@ -40,17 +40,8 @@ body {
     visibility: hidden;
 }
 
-.splashpage {
-    color: white;
-    padding-top: 100px;
-}
-
 .hideme {
     opacity: 0;
-}
-
-.backgrade {
-    background-image: linear-gradient(#fafafa, #afafaf);
 }
 
 /* title */
@@ -64,6 +55,15 @@ body {
     height: 100vh;
     position: relative;
     color: white;
+}
+
+.splashpage {
+    color: white;
+    padding-top: 100px;
+}
+
+.backgrade {
+    background-image: linear-gradient(#fafafa, #afafaf);
 }
 
 /* component heights */
@@ -103,22 +103,17 @@ a:link, a:visited, .projectlinks {
     filter: invert(100%)
 }
 
-.smalltext {
-    font-size: 1em;
-}
-
 .biolinks:hover, a:hover {
     color: blue;
     text-decoration: none;
 }
 
-.project:hover {
-    box-shadow: 0px 0px 2px 1px #444444;
+.smalltext {
+    font-size: 1em;
 }
 
-#emailbtn {
-    text-align: center;
-    max-width: auto;
+.project:hover {
+    box-shadow: 0px 0px 2px 1px #444444;
 }
 
 #footer {
@@ -127,6 +122,11 @@ a:link, a:visited, .projectlinks {
     border-radius: 5px;
     padding: 1.25rem;
     margin: 4px 15px 0px 15px;
+}
+
+#emailbtn {
+    text-align: center;
+    max-width: auto;
 }
 
 #copyright {
