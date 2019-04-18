@@ -9,7 +9,6 @@ body {
 }
 
 .container-fluid {
-    /* background: #afafaf; */
     padding: 0px;
     margin: 0px;
 }
@@ -28,7 +27,7 @@ body {
 }
 
 #fixedbutton {
-    font-size: 12px;
+    font-size: .8em;
     position: fixed;
     bottom: 1em;
     right: 2em; 
@@ -52,13 +51,14 @@ body {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: bottom;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     color: white;
 }
 
-.splashpage {
+#splashpage {
     color: white;
+    margin-top: 28vh;
 }
 
 .backgrade {
@@ -75,13 +75,7 @@ body {
     max-width: 30%;
     width: auto;
     height: auto;
-    padding: 2px;
     border: 2px solid black;
-}
-
-.name {
-    color: white;
-    margin-top: 28vh;
 }
 
 .table td{
@@ -96,7 +90,7 @@ a:link, a:visited, .projectlinks {
 
 .biolinks {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 30px;
+    font-size: 2.2em;
     filter: invert(100%)
 }
 
