@@ -46,18 +46,16 @@ body {
 /* title */
 .titleparallax {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), 
-    url("./images/bgimg-1.jpg"); 
+    url("./images/monterey.jpg"); 
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: bottom;
     min-height: 100vh;
     position: relative;
-    color: white;
 }
 
 #splashpage {
-    color: white;
     margin-top: 28vh;
 }
 
@@ -75,6 +73,7 @@ body {
     max-width: 30%;
     width: auto;
     height: auto;
+    padding: 2px;
     border: 2px solid black;
 }
 
@@ -97,10 +96,6 @@ a:link, a:visited, .projectlinks {
 .biolinks:hover, a:hover {
     color: blue;
     text-decoration: none;
-}
-
-.smalltext {
-    font-size: 1em;
 }
 
 .project:hover {
