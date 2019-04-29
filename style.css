@@ -108,6 +108,7 @@ a:link, a:visited, .projectlinks {
     border-radius: .25rem;
     padding: 1.25rem;
     margin: 1rem 15px 0px 15px;
+    border: 1px solid rgba(0,0,0,.125);
 }
 
 #emailbtn {
