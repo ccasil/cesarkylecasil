@@ -55,6 +55,18 @@ body {
     position: relative;
 }
 
+/* 404 */
+.four04parallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url("./images/santa-cruz.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: bottom;
+    min-height: 100vh;
+    position: relative;
+}
+
 #splashpage {
     margin-top: 28vh;
 }
