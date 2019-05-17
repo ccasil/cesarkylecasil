@@ -3,14 +3,32 @@ html p .title {
     padding: 0px;
 }
 
+@media (max-width: 576px) {
+    .title {
+        font-size: 3.5rem;
+    }
+}
+
 body {
     overflow-x: hidden;
     background: #afafaf;
 }
 
 .container-fluid {
-    padding: 0px;
-    margin: 0px;
+    padding: 0em 2em 0em 2em;
+    margin: 0em;
+}
+
+@media (max-width: 576px) {
+    .container-fluid {
+        padding: 0em 1em 0em 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        padding: 0em 4em 0em 4em;
+    }
 }
 
 .navbar {
@@ -40,7 +58,7 @@ body {
 /* title */
 .titleparallax {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), 
-    url("./images/monterey.jpg"); 
+    url("./images/monterey.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -52,7 +70,7 @@ body {
 /* 404 */
 .four04parallax {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-    url("./images/santa-cruz.jpg"); 
+    url("./images/santa-cruz.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
