@@ -15,7 +15,6 @@ body {
 }
 
 .container-fluid {
-    padding: 0em 2em 0em 2em;
     margin: 0em;
 }
 
@@ -24,7 +23,16 @@ body {
         padding: 0em 1em 0em 1em;
     }
 }
-
+@media (min-width: 576px) {
+    .container-fluid {
+        padding: 0em 2em 0em 2em;
+    }
+}
+@media (min-width: 768px) {
+    .container-fluid {
+        padding: 0em 3em 0em 3em;
+    }
+}
 @media (min-width: 1200px) {
     .container-fluid {
         padding: 0em 4em 0em 4em;
@@ -163,7 +171,7 @@ a:link, a:visited, .projectlinks {
 
 #emailbtn {
     text-align: center;
-    max-width: auto;
+    width: auto;
 }
 
 #copyright {
