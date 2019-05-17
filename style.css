@@ -33,12 +33,6 @@ body {
     right: 2em; 
 }
 
-.anchor {
-    display: block;
-    position: relative;
-    visibility: hidden;
-}
-
 .hideme {
     opacity: 0;
 }
@@ -82,11 +76,37 @@ body {
 
 #meme {
     margin: 1em;
-    max-width: 30%;
-    width: auto;
-    height: auto;
+    /* width: auto; */
+    /* height: auto;s */
     padding: 2px;
     border: 2px solid black;
+}
+
+@media (max-width: 576px) {
+    #meme {
+        min-width: 255px;
+        max-width: 50%;
+    }
+}
+@media (min-width: 576px) {
+    #meme {
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    #meme {
+        max-width: 40%;
+    }
+}
+@media (min-width: 992px) {
+    #meme {
+        max-width: 30%;
+    }
+}
+@media (min-width: 1200px) {
+    #meme {
+        max-width: 30%;
+    }
 }
 
 .table td{
