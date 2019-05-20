@@ -48,15 +48,12 @@ body {
     color: #7c7c7d;
 }
 
-.solid {
-    transition: background-color 1s ease 0s;
-}
-
 #fixedbutton {
     font-size: .8em;
     position: fixed;
     bottom: 1em;
-    right: 2em; 
+    right: 2em;
+    z-index: 1;
 }
 
 .hideme {
@@ -73,6 +70,7 @@ body {
     background-position: bottom;
     min-height: 100vh;
     position: relative;
+    z-index: 9;
 }
 
 /* 404 */
@@ -154,6 +152,10 @@ a:link, a:visited, .projectlinks {
 .biolinks:hover, a:hover {
     color: blue;
     text-decoration: none;
+}
+
+.card-img-top {
+    padding: .5em 0em .5em 0em;
 }
 
 .project:hover {
