@@ -3,12 +3,6 @@ html p .title {
     padding: 0px;
 }
 
-@media (max-width: 576px) {
-    .title {
-        font-size: 3.5rem;
-    }
-}
-
 body {
     overflow-x: hidden;
     background: #afafaf;
@@ -18,24 +12,57 @@ body {
     margin: 0em;
 }
 
+.display-3 {
+    font-size: calc(56px + (72 - 56) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.display-4 {
+    font-size: calc(40px + (56 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.summary, .table td, .lead {
+    font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
 @media (max-width: 576px) {
+    .arrows {
+        display: none;
+    }
     .container-fluid {
         padding: 0em 1em 0em 1em;
+    }
+    #meme {
+        min-width: 255px;
+        max-width: 50%;
     }
 }
 @media (min-width: 576px) {
     .container-fluid {
         padding: 0em 2em 0em 2em;
     }
+    #meme {
+        max-width: 50%;
+    }
 }
 @media (min-width: 768px) {
     .container-fluid {
         padding: 0em 3em 0em 3em;
     }
+    #meme {
+        max-width: 40%;
+    }
+}
+@media (min-width: 992px) {
+    #meme {
+        max-width: 30%;
+    }
 }
 @media (min-width: 1200px) {
     .container-fluid {
         padding: 0em 4em 0em 4em;
+    }
+    #meme {
+        max-width: 30%;
     }
 }
 
@@ -85,6 +112,58 @@ body {
     position: relative;
 }
 
+
+.arrow-container {
+    position: relative;
+    bottom: 0;
+    margin: 0 auto;
+    display: block;
+    background: transparent;
+    text-align: center;
+    width: auto;
+}
+
+.arrows path {
+	stroke: rgba(255, 255, 255, 0.6);
+	fill: transparent;
+	stroke-width: 2px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2.5s infinite; 
+}
+
+@keyframes arrow {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows, svg {
+    vertical-align: top;
+    width: 64px;
+    text-align: center;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    right: 25%;
+    left: 50%;
+    margin-left: -85px;
+    width: 170px;
+}
+
 #splashpage {
     margin-top: 28vh;
 }
@@ -106,35 +185,7 @@ body {
     border: 2px solid black;
 }
 
-@media (max-width: 576px) {
-    #meme {
-        min-width: 255px;
-        max-width: 50%;
-    }
-}
-@media (min-width: 576px) {
-    #meme {
-        max-width: 50%;
-    }
-}
-@media (min-width: 768px) {
-    #meme {
-        max-width: 40%;
-    }
-}
-@media (min-width: 992px) {
-    #meme {
-        max-width: 30%;
-    }
-}
-@media (min-width: 1200px) {
-    #meme {
-        max-width: 30%;
-    }
-}
-
 .table td{
-    font-size: 1em;
     font-weight: bold;
     color: black;
 }
@@ -145,7 +196,7 @@ a:link, a:visited, .projectlinks {
 
 .biolinks {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 2.2em;
+    font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1600 - 300)));
     filter: invert(100%)
 }
 
