@@ -21,18 +21,20 @@ body {
 }
 
 .summary, .table td, .lead {
-    font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300))) !important;
 }
 
 @media (max-width: 576px) {
-    .arrows {
+    .arrows, #fixedbutton {
         display: none;
+    }
+    .nav-item {
+        font-size: 0.8rem;
     }
     .container-fluid {
         padding: 0em 1em 0em 1em;
     }
     #meme {
-        min-width: 255px;
         max-width: 50%;
     }
 }
