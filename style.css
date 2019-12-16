@@ -215,12 +215,16 @@ a:link, a:visited, .projectlinks {
     box-shadow: 0px 0px 2px 1px #444444;
 }
 
+.card-body-down {
+    /* margin-top: 100%; */
+}
+
 #footer {
     text-align: center;
     background-color: white;
     border-radius: .25rem;
     padding: 1.25rem;
-    margin: 1rem 15px 0px 15px;
+    /* margin: 1rem 15px 0px 15px; */
     border: 1px solid rgba(0,0,0,.125);
 }
 
