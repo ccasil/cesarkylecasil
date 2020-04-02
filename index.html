@@ -22,7 +22,8 @@
 	<link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
 	<title>Cesar Kyle Casil | Software Engineer</title>
 
-	<meta name="description" content="Cesar Kyle Casil is a full stack web developer located in the Silicon Valley.">
+	<meta name="description"
+		content="Cesar Kyle Casil is a full stack web development engineer located in the Silicon Valley.">
 	<meta name="keywords"
 		content="Cesar, Kyle, Casil, cekydeca, bigboicesar, Coding Dojo, Santa Clara, Santa Cruz,  Silicon Valley, UCSC, BSOE, Lambda Phi Epsilon, LPhiE, Computer Science, HTML, CSS, JavaScript, Python, Swift">
 	<meta name="author" content="Cesar Kyle Casil">
@@ -30,16 +31,20 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+		integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 	<script src="main.js"></script>
-
+	<meta name="theme-color" content="#afafaf">
 	<meta name="google-site-verification" content="X97QRdCiElOE51dG681m3r0zTvP6oZn-lGv3QG7NPIc" />
 </head>
 
 <body>
+	<!--[if IE]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser.</p>
+	<![endif]-->
 	<div class="container-fluid">
 		<nav class="navbar navbar-light fixed-top">
 			<ul class="navbar-nav">
@@ -61,12 +66,14 @@
 	<div class="container-fluid titleparallax" id="top">
 		<div class="d-flex justify-content-center text-center">
 			<div id="splashpage">
-				<h1 class="h1 text-uppercase display-3 font-weight-bold">
-					<a href="#about" class="text-white">Cesar Kyle Casil</a>
-				</h1>
-				<h2 class="h2 display-4">
-					<a style="color: rgba(255, 255, 255, 0.6);" href="#about">Software Engineer</a>
-				</h2>
+				<a href="#about" class="text-white">
+					<h1 class="h1 text-uppercase display-3 font-weight-bold">
+						Cesar Kyle Casil
+					</h1>
+					<h2 class="h2 display-4">
+						<span style="color: rgba(255, 255, 255, 0.6);">Software Engineer</span>
+					</h2>
+				</a>
 				<div class="container">
 					<div class="row text-center">
 						<a class="col biolinks" target="_blank" href="cesar-kyle-casil-resume.pdf">
@@ -83,9 +90,6 @@
 						</a>
 					</div>
 				</div>
-				<!-- <a style="color: rgba(255, 255, 255, 0.6);" href="#about">
-						<i class="fas fa-chevron-down"></i>
-					</a> -->
 				<div class="bottom">
 					<a class="arrow-container text-center" href="#about">
 						<svg class="arrows text-center">
@@ -123,10 +127,9 @@
 						</tr>
 						<tr>
 							<td>Angular</td>
-							<td>React</td>
 							<td>jQuery</td>
 							<td>SQL</td>
-							<td>MongoDB</td>
+							<td>SVN</td>
 						</tr>
 						<tr>
 							<td>Git</td>
@@ -147,23 +150,21 @@
 			</div>
 		</div>
 
-		<div class="section" id="projects">
-			<div class="container-fluid">
+		<div id="projects">
+			<div class="container">
 				<h3 class="h3 text-center display-3 title hideme">PROJECTS</h3>
 				<div class="row my-3">
-					<div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3 mb-3">
-						<div class="card project h-100">
+					<div class="hideme col-xl-6 col-12 mb-3">
+						<div class="card project h-100 rounded-0">
 							<h5 class="display-5 card-header">
-								<a class="projectlinks" target="_blank" href="#top">Cesar Kyle Casil <i
+								Cesar Kyle Casil <a class="projectlinks" target="_blank" href="#top"><i
 										class="fas fa-link fa-sm"></i></a><a class="projectlinks" target="_blank"
 									href=https://github.com/ccasil/cesarkylecasil.github.io> <i
 									class="fas fa-code fa-sm"></i></a>
 							</h5>
 							<img class="card-img-top" src="images/portfolio.gif" alt="Portfolio">
 							<div class="card-body">
-								<div class="card-body-down">
-									<p class="card-text lead">Personal portfolio</p>
-								</div>
+								<p class="card-text lead">Personal portfolio</p>
 							</div>
 							<div class="card-footer">
 								<small class="text-muted">Technologies Used: HTML5, CSS3, JavaScript, jQuery,
@@ -173,56 +174,32 @@
 							</div>
 						</div>
 					</div>
-					<div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-						<div class="card project h-100">
+					<div class="hideme col-xl-6 col-12 mb-3">
+						<div class="card project h-100 rounded-0">
 							<h5 class="display-5 card-header">
-								<a class="projectlinks" target="_blank"
-									href=https://github.com/ccasil/Tips-and-Templates/blob/master/README.md>Tips and
-									Templates <i class="fas fa-link fa-sm"></i></a><a class="projectlinks"
-									target="_blank" href=https://github.com/ccasil/Tips-and-Templates> <i
+								Tips and Templates <a class="projectlinks" target="_blank"
+									href=https://github.com/ccasil/Tips-and-Templates/blob/master/README.md> <i
+									class="fas fa-link fa-sm"></i></a><a class="projectlinks" target="_blank"
+									href=https://github.com/ccasil/Tips-and-Templates> <i
 									class="fas fa-code fa-sm"></i></a>
 							</h5>
 							<img class="card-img-top" src="images/tipsandtemplates.gif" alt="Tips and Templates">
 							<div class="card-body">
-								<div class="card-body-down">
-									<p class="card-text lead">Notes on various topics based around Computer Science</p>
-									<p class="font-weight-lighter">
-										Latest Additions: SEO, PHP, PSQL, Git, JSON...
-									</p>
-								</div>
+								<p class="card-text lead">Notes on various topics based around Computer Science</p>
+								<p class="font-weight-lighter">
+									Latest Additions: SCSS, Git, SVN, tools...
+								</p>
 							</div>
 							<div class="card-footer">
 								<small class="text-muted">Technologies Used: Markdown, Git</small>
 							</div>
 						</div>
 					</div>
-					<div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-						<div class="card project h-100">
+					<div class="hideme col-xl-6 col-12 mb-3">
+						<div class="card project h-100 rounded-0">
 							<h5 class="display-5 card-header">
-								<a class="projectlinks" target="_blank" href=http://megumihfashion.com>Megumi H <i
-									class="fas fa-link fa-sm"></i></a><a class="projectlinks" target="_blank"
-									href=https://github.com/ccasil/megumih> <i class="fas fa-code fa-sm"></i></a>
-							</h5>
-							<img class="card-img-top" src="images/megumi.gif" alt="Megumi Hiramoto">
-							<div class="card-body">
-								<div class="card-body-down">
-									<p class="card-text lead">Portfolio for Academy of Art student to display her
-										studies in fashion journalism
-									</p>
-								</div>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Technologies Used: React, JavaScript, HTML5, CSS3,
-									Bootstrap 4, Responsive Web
-									Design (RWD), GoDaddy</small>
-							</div>
-						</div>
-					</div>
-					<div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-						<div class="card project h-100">
-							<h5 class="display-5 card-header">
-								<a class="projectlinks" target="_blank"
-									href=https://sites.google.com/view/workoutsupplement/home>Supp <i
+								Supp <a class="projectlinks" target="_blank"
+									href=https://sites.google.com/view/workoutsupplement/home> <i
 									class="fas fa-link fa-sm"></i></a><a class="projectlinks" target="_blank"
 									href=https://www.github.com/ccasil/Supplement> <i class="fas fa-code fa-sm"></i></a>
 								<a target="_blank" href=https://apps.apple.com/us/app/supp/id1474689132> <i
@@ -233,12 +210,10 @@
 									style="width: 40%;">
 							</div>
 							<div class="card-body">
-								<div class="card-body-down">
-									<p class="card-text lead">Personal iOS application to aid in daily workout programs
-									</p>
-									<p></p>Includes a user profile, kg/lb conversion calculator, exercise database,
-									barbell calculator, and a log of main lifts</p>
-								</div>
+								<p class="card-text lead">Personal iOS application to aid in daily workout programs
+								</p>
+								<p></p>Includes a user profile, kg/lb conversion calculator, exercise database,
+								barbell calculator, and a log of main lifts</p>
 							</div>
 							<div class="card-footer">
 								<small class="text-muted">Technologies Used: Xcode, Swift 5, Core Data, Auto Layout,
@@ -246,92 +221,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-						<div class="card project h-100">
-							<h5 class="display-5 card-header">
-								<a class="projectlinks" target="_blank" href=http://lovechangingtheworld.org>Love
-									Changing the World <i class="fas fa-link fa-sm"></i></a><a class="projectlinks"
-									target="_blank" href=https://www.github.com/ccasil/LCTW> <i
-									class="fas fa-code fa-sm"></i></a>
-							</h5>
-							<img class="card-img-top" src="images/lctw.gif" alt="Love Changing the World">
-							<div class="card-body">
-								<div class="card-body-down">
-									<p class="card-text lead">Public website for the non-profit organization Love
-										Changing the World, Inc. </p>
-									<p>Allows donations through PayPal in exchange
-										for apparel with LCTW branding</p>
-								</div>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Technologies Used: React, Redux, MongoDB, Express,
-									Node.js, Bootstrap 4, HTML5, CSS3, JavaScript, Google Maps API, PayPal
-									API</small>
-							</div>
-						</div>
-					</div>
-					<div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-						<div class="card project h-100">
-							<h5 class="display-5 card-header">
-								Alex The Party<a class="projectlinks" target="_blank"
-									href=https://github.com/ccasil/alextheparty> <i class="fas fa-code fa-sm"></i></a>
-							</h5>
-							<img class="card-img-top" src="images/alex.gif" alt="Alex Defiesta">
-							<div class="card-body">
-								<div class="card-body-down">
-									<p class="card-text lead">Demo e-commerce web application selling prints by local
-										San Francisco/Bay Area
-										photographer, Alex Defiesta</p>
-								</div>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Technologies Used: Angular 5, MongoDB, Express, Node.js,
-									JavaScript, HTML5, CSS3,
-									Bootstrap 4, Responsive Web Design
-									(RWD), Amazon EC2, Multer</small>
-							</div>
-						</div>
-					</div>
-					<!-- <div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-								<div class="card project h-100">
-									<h5 class="display-5 card-header">
-										Dojo Attendance Tracker<a class="projectlinks" target="_blank" href=https://www.github.com/ccasil/geo_hack> <i class="fas fa-code fa-sm"></i></a>
-									</h5>
-									<div class="card-body">
-										<div class="card-body-down">
-										<p class="card-text lead">iOS application that records the amount of time spent inside Coding Dojo as well as the time spent outside; can be
-											expanded into an attendance tracker for Coding Dojo.</p>
-										</div>
-									</div>
-									<div class="card-footer">
-										<small class="text-muted">Technologies Used: Xcode, Swift 4, Core Location, Map Kit, AV Foundation, Core Data, Auto Layout</small>
-									</div>
-								</div>
-							</div>
-							<div class="hideme col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-								<div class="card project h-100">
-									<h5 class="display-5 card-header">
-										Baskin-Robbins 31<a class="projectlinks" target="_blank" href=https://www.github.com/ccasil/BRB31> <i class="fas fa-code fa-sm"></i></a>
-									</h5>
-									<div class="card-body">
-										<div class="card-body-down">
-										<p class="card-text lead">Web application tailored to Baskin-Robbins fans. Allows the registered user to view and add all the available flavors
-										to a list of favorites, and uses location to find the nearest Baskin-Robbins through the Google Maps API.
-										</p>
-									</div>
-									</div>
-									<div class="card-footer">
-										<small class="text-muted">Technologies Used: Python, Django, SQLite3, Google Maps JavaScript API, Bcrypt, HTML5, CSS3, JavaScript, jQuery,
-											Bootstrap 4, Object Relational Mapping (ORM), Object Oriented Programming (OOP)</small>
-									</div>
-								</div>
-							</div> -->
-
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid" id="contact">
+	<div class="container" id="contact">
 		<div id="footer">
 			<div class="hideme row">
 				<div class="col-md-4 col-sm-12">
@@ -365,10 +259,6 @@
 								<div class="modal-body">
 									Email copied to clipboard!
 								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary btn-sm"
-										data-dismiss="modal">Close</button>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -392,7 +282,6 @@
 	</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
 	</script>
 </body>
 

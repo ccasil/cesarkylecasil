@@ -1,11 +1,41 @@
-html p .title {
-    margin: 0px 0px 1rem 0px;
-    padding: 0px;
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 body {
+    margin: 0;
     overflow-x: hidden;
     background: #afafaf;
+}
+
+hr {
+    box-sizing: content-box; /* 1 */
+    /* height: 0; 1 */
+    overflow: visible; /* 2 */
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+html p .title {
+    margin: 0px 0px 1rem 0px;
+    padding: 0px;
 }
 
 .container-fluid {
@@ -27,7 +57,6 @@ body {
 }
 
 @media (max-width: 576px) {
-
     .arrows,
     #fixedbutton {
         display: none;
@@ -50,7 +79,6 @@ body {
     .container-fluid {
         padding: 0em 2em 0em 2em;
     }
-
     #meme {
         max-width: 50%;
     }
@@ -85,10 +113,6 @@ body {
 .navbar {
     font-weight: bold;
     width: 100px;
-}
-
-.nav-link:hover {
-    color: #7c7c7d;
 }
 
 #fixedbutton {
@@ -208,8 +232,6 @@ svg {
 }
 
 #meme {
-    /* width: auto; */
-    /* height: auto;s */
     padding: 2px;
     border: 2px solid black;
 }
@@ -226,14 +248,14 @@ a:visited,
 }
 
 .biolinks {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9) !important;
     font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1600 - 300)));
-    filter: invert(100%)
+    /* filter: invert(100%) */
 }
 
 .biolinks:hover,
 a:hover {
-    color: blue;
+    color: #7692ba !important;
     text-decoration: none;
 }
 
@@ -245,14 +267,9 @@ a:hover {
     box-shadow: 0px 0px 2px 1px #444444;
 }
 
-.card-body-down {
-    /* margin-top: 100%; */
-}
-
 #footer {
     text-align: center;
     background-color: white;
-    border-radius: .25rem;
     padding: 1.25rem;
     /* margin: 1rem 15px 0px 15px; */
     border: 1px solid rgba(0, 0, 0, .125);
