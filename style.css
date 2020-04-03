@@ -59,18 +59,18 @@ html p .title {
     position: absolute;
 }
 
-.name::before {
+/* .name::before {
     background: rgb(0, 0, 0);
     width: 100vw;
     left: 50%;
     transform: translate(-50%);
-}
+} */
 
 .name::after {
-    background: rgb(0, 0, 0);
-    width: 100vw;
-    left: 50%;
-    transform: translate(-50%);
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    /* left: 50%;
+    transform: translate(-50%); */
 }
 
 h1 {
