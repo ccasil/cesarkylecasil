@@ -52,7 +52,8 @@ html p .title {
     display: block;
 }
 
-.name::before, .name::after {
+.name::before,
+.name::after {
     content: '';
     height: 2px;
     display: block;
@@ -79,7 +80,8 @@ h1 {
 }
 
 h2 {
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    ;
 }
 
 .h3 {
@@ -96,6 +98,29 @@ h2 {
 .table td,
 .lead {
     font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+/* title */
+.titleparallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("./images/monterey-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    position: relative;
+    z-index: 9;
+}
+
+/* 404 */
+.four04parallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("./images/santa-cruz-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    position: relative;
 }
 
 @media (max-width: 576px) {
@@ -128,7 +153,31 @@ h2 {
     }
 }
 
+@media (max-width: 768px) {
+
+    /* title */
+    .titleparallax {
+        background-attachment: scroll;
+    }
+
+    /* 404 */
+    .four04parallax {
+        background-attachment: scroll;
+    }
+}
+
 @media (min-width: 768px) {
+
+    /* title */
+    .titleparallax {
+        background-attachment: fixed;
+    }
+
+    /* 404 */
+    .four04parallax {
+        background-attachment: fixed;
+    }
+
     .container-fluid {
         padding: 0rem 3rem 0rem 3rem;
     }
@@ -168,31 +217,6 @@ h2 {
 
 .hideme {
     opacity: 0;
-}
-
-/* title */
-.titleparallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("./images/monterey-min.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    min-height: 100vh;
-    position: relative;
-    z-index: 9;
-}
-
-/* 404 */
-.four04parallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("./images/santa-cruz-min.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    min-height: 100vh;
-    position: relative;
 }
 
 
