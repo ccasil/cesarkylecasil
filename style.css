@@ -44,7 +44,42 @@ html p .title {
 }
 
 .container-fluid {
-    margin: 0em;
+    margin: 0;
+}
+
+.name {
+    position: relative;
+    display: block;
+}
+
+.name::before, .name::after {
+    content: '';
+    height: 2px;
+    display: block;
+    position: absolute;
+}
+
+.name::before {
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.name::after {
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.6);;
 }
 
 .h3 {
@@ -75,7 +110,7 @@ html p .title {
     }
 
     .container-fluid {
-        padding: 0em 1em 0em 1em;
+        padding: 0rem 1rem 0rem 1rem;
     }
 
     #meme {
@@ -85,7 +120,7 @@ html p .title {
 
 @media (min-width: 576px) {
     .container-fluid {
-        padding: 0em 2em 0em 2em;
+        padding: 0rem 2rem 0rem 2rem;
     }
 
     #meme {
@@ -95,7 +130,7 @@ html p .title {
 
 @media (min-width: 768px) {
     .container-fluid {
-        padding: 0em 3em 0em 3em;
+        padding: 0rem 3rem 0rem 3rem;
     }
 
     #meme {
@@ -111,7 +146,7 @@ html p .title {
 
 @media (min-width: 1200px) {
     .container-fluid {
-        padding: 0em 4em 0em 4em;
+        padding: 0rem 4rem 0rem 4rem;
     }
 
     #meme {
@@ -125,10 +160,10 @@ html p .title {
 }
 
 #fixedbutton {
-    font-size: .8em;
+    font-size: 0.8rem;
     position: fixed;
-    bottom: 1em;
-    right: 2em;
+    bottom: 1rem;
+    right: 2rem;
     z-index: 1;
 }
 
