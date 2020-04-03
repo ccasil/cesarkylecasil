@@ -155,7 +155,6 @@ h2 {
 }
 
 .navbar {
-    font-weight: bold;
     width: 100px;
 }
 
@@ -236,13 +235,11 @@ h2 {
 .arrows path.a1 {
     animation-delay: -1s;
     -webkit-animation-delay: -1s;
-    /* Safari 和 Chrome */
 }
 
 .arrows path.a2 {
     animation-delay: -0.5s;
     -webkit-animation-delay: -0.5s;
-    /* Safari 和 Chrome */
 }
 
 .arrows,
@@ -276,7 +273,6 @@ svg {
 }
 
 .table td {
-    font-weight: bold;
     color: black;
 }
 
@@ -289,7 +285,6 @@ a:visited,
 .biolinks {
     color: rgba(255, 255, 255, 0.9) !important;
     font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1600 - 300)));
-    /* filter: invert(100%) */
 }
 
 .biolinks:hover,
