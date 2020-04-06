@@ -1,6 +1,5 @@
 (function ($) {
     $(document).ready(function () {
-
         $(function () {
             $(window).scroll(function () {
                 $('.hideme').each(function (i) {
@@ -14,7 +13,6 @@
                 });
             });
         });
-
         $("a").on('click', function (event) {
             if (this.hash !== "") {
                 event.preventDefault();
@@ -26,9 +24,7 @@
                 });
             }
         });
-
         document.getElementById("year").innerHTML = new Date().getFullYear();
-
     });
 }(jQuery));
 
