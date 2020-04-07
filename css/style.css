@@ -98,7 +98,7 @@ h2 {
 /* title */
 .titleparallax {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("./images/monterey-min.jpg");
+        url("../images/monterey-min.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -110,7 +110,7 @@ h2 {
 /* 404 */
 .four04parallax {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("./images/santa-cruz-min.jpg");
+        url("../images/santa-cruz-min.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
