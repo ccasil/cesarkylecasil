@@ -38,37 +38,6 @@ html p .title {
     padding: 0px;
 }
 
-.container-fluid {
-    margin: 0;
-}
-
-.name {
-    position: relative;
-    display: block;
-}
-
-.name::before,
-.name::after {
-    content: '';
-    height: 2px;
-    display: block;
-    position: absolute;
-}
-
-/* .name::before {
-    background: rgb(0, 0, 0);
-    width: 100vw;
-    left: 50%;
-    transform: translate(-50%);
-} */
-
-.name::after {
-    background: rgba(0, 0, 0, 1);
-    width: 100%;
-    /* left: 50%;
-    transform: translate(-50%); */
-}
-
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
@@ -76,7 +45,6 @@ h1 {
 
 h2 {
     color: rgba(255, 255, 255, 0.6);
-    ;
 }
 
 .h3 {
@@ -86,6 +54,12 @@ h2 {
 }
 
 .display-4 {
+    font-size: calc(40px + (56 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.display-5 {
+    font-weight: 300;
+    line-height: 1.2;
     font-size: calc(40px + (56 - 40) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -171,9 +145,20 @@ h2 {
     .four04parallax {
         background-attachment: scroll;
     }
+
+    .name::before,
+    .name::after {
+        display: inline-block;
+        content: "";
+        border-top: .2rem solid black;
+        width: 1rem;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
+    }
 }
 
 @media (min-width: 768px) {
+
 
     #splashpage {
         margin-top: 28vh;
@@ -195,6 +180,16 @@ h2 {
 
     #meme {
         max-width: 40%;
+    }
+
+    .name::before,
+    .name::after {
+        display: inline-block;
+        content: "";
+        border-top: .2rem solid black;
+        width: 4rem;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
     }
 }
 
@@ -331,7 +326,7 @@ a:hover {
 #footer {
     text-align: center;
     background-color: #f7f7f7;
-    border: 1px solid rgba(0, 0, 0, .125);
+    border: .1rem solid rgba(0, 0, 0, .125);
 }
 
 #emailbtn {
