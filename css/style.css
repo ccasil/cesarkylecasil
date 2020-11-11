@@ -326,7 +326,6 @@ a:hover {
 #footer {
     text-align: center;
     background-color: #f7f7f7;
-    border: .1rem solid rgba(0, 0, 0, .125);
 }
 
 #emailbtn {
