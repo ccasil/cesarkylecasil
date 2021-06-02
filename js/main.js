@@ -24,6 +24,11 @@
                 });
             }
         });
+        $('.flip-card').on('click',
+            function () {
+                $(this).toggleClass('flipped')
+            }
+        )
         const thisyear = new Date().getFullYear();
         if (document.getElementById("year")) {
             document.getElementById("year").innerHTML = thisyear;
