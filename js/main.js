@@ -24,8 +24,10 @@
                 });
             }
         });
-        document.getElementById("year0").innerHTML = new Date().getFullYear();
-        document.getElementById("year1").innerHTML = new Date().getFullYear();
+        const thisyear = new Date().getFullYear();
+        document.getElementById("year").innerHTML = thisyear;
+        document.getElementById("year0").innerHTML = thisyear;
+        document.getElementById("year1").innerHTML = thisyear;
     });
 }(jQuery));
 

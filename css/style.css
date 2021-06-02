@@ -38,11 +38,6 @@ html p .title {
     padding: 0px;
 }
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
 h2 {
     color: rgba(255, 255, 255, 0.6);
 }
@@ -111,19 +106,12 @@ h2 {
         font-size: 0.8rem;
     }
 
-    .container-fluid {
-        padding: 0rem 1rem 0rem 1rem;
-    }
-
     #meme {
         max-width: 50%;
     }
 }
 
 @media (min-width: 576px) {
-    .container-fluid {
-        padding: 0rem 2rem 0rem 2rem;
-    }
 
     #meme {
         max-width: 50%;
@@ -174,10 +162,6 @@ h2 {
         background-attachment: fixed;
     }
 
-    .container-fluid {
-        padding: 0rem 3rem 0rem 3rem;
-    }
-
     #meme {
         max-width: 40%;
     }
@@ -200,9 +184,6 @@ h2 {
 }
 
 @media (min-width: 1200px) {
-    .container-fluid {
-        padding: 0rem 4rem 0rem 4rem;
-    }
 
     #meme {
         max-width: 30%;
@@ -306,17 +287,18 @@ a:link,
 a:visited,
 .projectlinks {
     color: black;
+    text-decoration: none;
 }
 
 .biolinks {
     color: rgba(255, 255, 255, 0.9) !important;
     font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1600 - 300)));
+    text-decoration: none;
 }
 
 .biolinks:hover,
 a:hover {
     color: #7692ba !important;
-    text-decoration: none;
 }
 
 .project:hover {
