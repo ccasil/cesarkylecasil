@@ -25,9 +25,15 @@
             }
         });
         const thisyear = new Date().getFullYear();
-        document.getElementById("year").innerHTML = thisyear;
-        document.getElementById("year0").innerHTML = thisyear;
-        document.getElementById("year1").innerHTML = thisyear;
+        if (document.getElementById("year")) {
+            document.getElementById("year").innerHTML = thisyear;
+        }
+        if (document.getElementById("year0")) {
+            document.getElementById("year0").innerHTML = thisyear;
+        }
+        if (document.getElementById("year1")) {
+            document.getElementById("year1").innerHTML = thisyear;
+        }
     });
 }(jQuery));
 
