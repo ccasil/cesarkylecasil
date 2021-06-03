@@ -200,6 +200,7 @@ h2 {
     bottom: 1rem;
     right: 2rem;
     z-index: 1;
+    width: 100px;
 }
 
 .hideme {
@@ -312,5 +313,4 @@ a:hover {
 
 #emailbtn {
     text-align: center;
-    width: auto;
 }
