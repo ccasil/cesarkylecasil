@@ -200,7 +200,7 @@ h2 {
     bottom: 1rem;
     right: 2rem;
     z-index: 1;
-    width: 100px;
+    /* width: 100px; */
 }
 
 .hideme {
