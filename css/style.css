@@ -114,7 +114,7 @@ h2 {
 @media (min-width: 576px) {
 
     #meme {
-        max-width: 50%;
+        max-width: 60%;
     }
 }
 
@@ -163,7 +163,7 @@ h2 {
     }
 
     #meme {
-        max-width: 40%;
+        max-width: 75%;
     }
 
     .name::before,
@@ -179,14 +179,14 @@ h2 {
 
 @media (min-width: 992px) {
     #meme {
-        max-width: 30%;
+        max-width: 75%;
     }
 }
 
 @media (min-width: 1200px) {
 
     #meme {
-        max-width: 30%;
+        max-width: 50%;
     }
 }
 

@@ -1,0 +1,16 @@
+{
+    "name": "Cesar Kyle Casil",
+    "short_name": "Cesar Casil",
+    "theme_color": "#fafafa",
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [{
+        "src": "./favicon.ico",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "any maskable"
+      }
+    ]
+  }
